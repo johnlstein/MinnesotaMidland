@@ -1,0 +1,18 @@
+I've been a user of CMRI/JMRI for 30 years, but have run into a problem that has be stumped.  
+A few months ago my aged XP computer died and I replaced it with a Windows 7 laptop.
+It does not have an RS232 port, so I purchased and installed a USB/RS232 conversion cable.
+I cannot establish two way communication to the railroad.  I can initialize the railroad,
+and successfully transmit data which is properly interpreted and acted upon by the various
+devices (relays, switch motors, signals, etc.
+I can send a poll request, and the USIC responds with the proper indicator lights showing
+that the USIC is transmitting data back to the computer.  Indicator lights on the RS232/RS422
+interface card also show the USIC's response.  But, the computer does not respond to the
+inputted data.  It times out, then repeats the poll request.
+I have tried a replacement USB/RS232 conversion cable to no avail.
+I have tried loopback tests, and the CMRI Monitor shows the transmitted test data is properly
+returned.
+
+What could be the problem?  Is there an internal software switch that is causing returned data
+to be ignored?
+
+Appreciate any suggestions.      --John
